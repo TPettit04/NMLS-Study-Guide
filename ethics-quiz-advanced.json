@@ -1,0 +1,225 @@
+{
+  "title": "Ethics (20 Question Quiz)",
+  "questionPool": [
+    {
+      "question": "What is considered fraud for housing?",
+      "options": [
+        "Using fake bank accounts to qualify borrowers",
+        "Misstating income or occupancy to qualify for a loan",
+        "Creating fake appraisals to increase commissions",
+        "Selling one property multiple times"
+      ],
+      "answer": "Misstating income or occupancy to qualify for a loan",
+      "category": "Fraud Types"
+    },
+    {
+      "question": "Which practice involves pressuring an appraiser to hit a value?",
+      "options": [
+        "Redlining",
+        "Steering",
+        "Appraisal manipulation",
+        "Churning"
+      ],
+      "answer": "Appraisal manipulation",
+      "category": "Unethical Practices"
+    },
+    {
+      "question": "Which federal law prohibits discrimination based on race, gender, or religion in credit decisions?",
+      "options": [
+        "RESPA",
+        "ECOA",
+        "TILA",
+        "HMDA"
+      ],
+      "answer": "ECOA",
+      "category": "Fair Lending"
+    },
+    {
+      "question": "What is the term for targeting minority communities with high-cost loans?",
+      "options": [
+        "Redlining",
+        "Reverse redlining",
+        "Blockbusting",
+        "Net branching"
+      ],
+      "answer": "Reverse redlining",
+      "category": "Fair Lending"
+    },
+    {
+      "question": "What should an MLO do if they observe fraudulent documents?",
+      "options": [
+        "Ignore it",
+        "Ask borrower to explain",
+        "Report to compliance officer",
+        "Issue pre-approval anyway"
+      ],
+      "answer": "Report to compliance officer",
+      "category": "Professional Conduct"
+    },
+    {
+      "question": "Which law requires lenders to explain why credit was denied?",
+      "options": [
+        "ECOA",
+        "FCRA",
+        "TILA",
+        "RESPA"
+      ],
+      "answer": "ECOA",
+      "category": "Fair Lending"
+    },
+    {
+      "question": "Which of the following is a prohibited practice under RESPA Section 8?",
+      "options": [
+        "Giving clients referral discounts",
+        "Paying a referral fee to a real estate agent",
+        "Referring a client to your preferred appraiser",
+        "Sharing title insurance quotes"
+      ],
+      "answer": "Paying a referral fee to a real estate agent",
+      "category": "Unethical Practices"
+    },
+    {
+      "question": "Which is NOT a red flag for mortgage fraud?",
+      "options": [
+        "Missing pages in bank statements",
+        "Borrower lives near the property",
+        "Inconsistent W-2 income",
+        "Large unexplained deposits"
+      ],
+      "answer": "Borrower lives near the property",
+      "category": "Fraud Detection"
+    },
+    {
+      "question": "Which type of fraud involves using someone else\u2019s name and credit?",
+      "options": [
+        "Straw buyer",
+        "Silent second",
+        "Equity skimming",
+        "Air loan"
+      ],
+      "answer": "Straw buyer",
+      "category": "Fraud Types"
+    },
+    {
+      "question": "What is churning in mortgage lending?",
+      "options": [
+        "Forcing appraisers to inflate values",
+        "Repeatedly refinancing loans for fees",
+        "Forging signatures",
+        "Withholding LE disclosures"
+      ],
+      "answer": "Repeatedly refinancing loans for fees",
+      "category": "Unethical Practices"
+    },
+    {
+      "question": "What is considered fraud for housing?",
+      "options": [
+        "Using fake bank accounts to qualify borrowers",
+        "Misstating income or occupancy to qualify for a loan",
+        "Creating fake appraisals to increase commissions",
+        "Selling one property multiple times"
+      ],
+      "answer": "Misstating income or occupancy to qualify for a loan",
+      "category": "Fraud Types"
+    },
+    {
+      "question": "Which practice involves pressuring an appraiser to hit a value?",
+      "options": [
+        "Redlining",
+        "Steering",
+        "Appraisal manipulation",
+        "Churning"
+      ],
+      "answer": "Appraisal manipulation",
+      "category": "Unethical Practices"
+    },
+    {
+      "question": "Which federal law prohibits discrimination based on race, gender, or religion in credit decisions?",
+      "options": [
+        "RESPA",
+        "ECOA",
+        "TILA",
+        "HMDA"
+      ],
+      "answer": "ECOA",
+      "category": "Fair Lending"
+    },
+    {
+      "question": "What is the term for targeting minority communities with high-cost loans?",
+      "options": [
+        "Redlining",
+        "Reverse redlining",
+        "Blockbusting",
+        "Net branching"
+      ],
+      "answer": "Reverse redlining",
+      "category": "Fair Lending"
+    },
+    {
+      "question": "What should an MLO do if they observe fraudulent documents?",
+      "options": [
+        "Ignore it",
+        "Ask borrower to explain",
+        "Report to compliance officer",
+        "Issue pre-approval anyway"
+      ],
+      "answer": "Report to compliance officer",
+      "category": "Professional Conduct"
+    },
+    {
+      "question": "Which law requires lenders to explain why credit was denied?",
+      "options": [
+        "ECOA",
+        "FCRA",
+        "TILA",
+        "RESPA"
+      ],
+      "answer": "ECOA",
+      "category": "Fair Lending"
+    },
+    {
+      "question": "Which of the following is a prohibited practice under RESPA Section 8?",
+      "options": [
+        "Giving clients referral discounts",
+        "Paying a referral fee to a real estate agent",
+        "Referring a client to your preferred appraiser",
+        "Sharing title insurance quotes"
+      ],
+      "answer": "Paying a referral fee to a real estate agent",
+      "category": "Unethical Practices"
+    },
+    {
+      "question": "Which is NOT a red flag for mortgage fraud?",
+      "options": [
+        "Missing pages in bank statements",
+        "Borrower lives near the property",
+        "Inconsistent W-2 income",
+        "Large unexplained deposits"
+      ],
+      "answer": "Borrower lives near the property",
+      "category": "Fraud Detection"
+    },
+    {
+      "question": "Which type of fraud involves using someone else\u2019s name and credit?",
+      "options": [
+        "Straw buyer",
+        "Silent second",
+        "Equity skimming",
+        "Air loan"
+      ],
+      "answer": "Straw buyer",
+      "category": "Fraud Types"
+    },
+    {
+      "question": "What is churning in mortgage lending?",
+      "options": [
+        "Forcing appraisers to inflate values",
+        "Repeatedly refinancing loans for fees",
+        "Forging signatures",
+        "Withholding LE disclosures"
+      ],
+      "answer": "Repeatedly refinancing loans for fees",
+      "category": "Unethical Practices"
+    }
+  ]
+}
