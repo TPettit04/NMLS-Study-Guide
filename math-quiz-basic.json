@@ -1,0 +1,115 @@
+{
+  "title": "Mortgage Math (10 Question Quiz)",
+  "questionPool": [
+    {
+      "question": "How is Loan-to-Value (LTV) calculated?",
+      "options": [
+        "Loan Amount \u00f7 Appraised Value",
+        "Appraised Value \u00f7 Purchase Price",
+        "Loan Amount \u00f7 Purchase Price",
+        "Loan Term \u00d7 Interest Rate"
+      ],
+      "answer": "Loan Amount \u00f7 Appraised Value",
+      "category": "LTV"
+    },
+    {
+      "question": "A borrower takes a $160,000 loan on a $200,000 home. What is the LTV?",
+      "options": [
+        "70%",
+        "75%",
+        "80%",
+        "85%"
+      ],
+      "answer": "80%",
+      "category": "LTV"
+    },
+    {
+      "question": "How is Combined Loan-to-Value (CLTV) calculated?",
+      "options": [
+        "First Loan \u00f7 Purchase Price",
+        "First + Second Loans \u00f7 Appraised Value",
+        "Loan Amount \u00f7 Gross Income",
+        "APR \u00d7 Loan Term"
+      ],
+      "answer": "First + Second Loans \u00f7 Appraised Value",
+      "category": "CLTV"
+    },
+    {
+      "question": "A borrower has a $150,000 first loan and $30,000 second on a $200,000 home. CLTV is:",
+      "options": [
+        "85%",
+        "90%",
+        "95%",
+        "100%"
+      ],
+      "answer": "90%",
+      "category": "CLTV"
+    },
+    {
+      "question": "What is the formula for DTI (Debt-to-Income)?",
+      "options": [
+        "Loan Amount \u00f7 Monthly Debts",
+        "Monthly Debts \u00f7 Gross Monthly Income",
+        "Loan Amount \u00f7 Gross Monthly Income",
+        "Income \u00f7 Debts"
+      ],
+      "answer": "Monthly Debts \u00f7 Gross Monthly Income",
+      "category": "DTI"
+    },
+    {
+      "question": "If monthly debts are $1,800 and income is $6,000, DTI is:",
+      "options": [
+        "25%",
+        "28%",
+        "30%",
+        "33%"
+      ],
+      "answer": "30%",
+      "category": "DTI"
+    },
+    {
+      "question": "What is the simple monthly PI payment for a $300,000 loan at 6% interest?",
+      "options": [
+        "$1,200",
+        "$1,300",
+        "$1,400",
+        "$1,500"
+      ],
+      "answer": "$1,500",
+      "category": "PI"
+    },
+    {
+      "question": "How is prepaid interest calculated?",
+      "options": [
+        "Loan \u00f7 Interest Rate \u00f7 Days",
+        "Loan \u00d7 Rate \u00f7 12",
+        "Loan \u00d7 Rate \u00f7 365 \u00d7 Days",
+        "Principal \u00d7 Interest \u00f7 Months"
+      ],
+      "answer": "Loan \u00d7 Rate \u00f7 365 \u00d7 Days",
+      "category": "Prepaid Interest"
+    },
+    {
+      "question": "What is the dollar cost of 2 discount points on a $250,000 loan?",
+      "options": [
+        "$2,000",
+        "$3,500",
+        "$4,000",
+        "$5,000"
+      ],
+      "answer": "$5,000",
+      "category": "Points"
+    },
+    {
+      "question": "If a home is worth $275,000 and the borrower puts down $55,000, what is the LTV?",
+      "options": [
+        "60%",
+        "70%",
+        "75%",
+        "80%"
+      ],
+      "answer": "80%",
+      "category": "LTV"
+    }
+  ]
+}
