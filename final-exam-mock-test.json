@@ -1,0 +1,555 @@
+{
+  "title": "SAFE MLO Final Exam Practice (50 Questions)",
+  "questionPool": [
+    {
+      "question": "What must be given 3 business days before closing?",
+      "options": [
+        "CD",
+        "LE",
+        "1003",
+        "Toolkit"
+      ],
+      "answer": "CD",
+      "category": "TRID"
+    },
+    {
+      "question": "Which of the following triggers the delivery of a Loan Estimate?",
+      "options": [
+        "Borrower signs the 1003",
+        "Submission of purchase contract",
+        "Receipt of six key pieces of application info",
+        "Order of appraisal"
+      ],
+      "answer": "Receipt of six key pieces of application info",
+      "category": "Disclosures"
+    },
+    {
+      "question": "Which is a government loan?",
+      "options": [
+        "Conventional",
+        "FHA",
+        "Jumbo",
+        "Non-QM"
+      ],
+      "answer": "FHA",
+      "category": "Loan Types"
+    },
+    {
+      "question": "Who issues a clear-to-close?",
+      "options": [
+        "Processor",
+        "Loan Originator",
+        "Underwriter",
+        "Title Agent"
+      ],
+      "answer": "Underwriter",
+      "category": "Processing"
+    },
+    {
+      "question": "Which is NOT a red flag for mortgage fraud?",
+      "options": [
+        "Missing pages in bank statements",
+        "Borrower lives near the property",
+        "Inconsistent W-2 income",
+        "Large unexplained deposits"
+      ],
+      "answer": "Borrower lives near the property",
+      "category": "Fraud Detection"
+    },
+    {
+      "question": "What is the term for targeting minority communities with high-cost loans?",
+      "options": [
+        "Redlining",
+        "Reverse redlining",
+        "Blockbusting",
+        "Net branching"
+      ],
+      "answer": "Reverse redlining",
+      "category": "Fair Lending"
+    },
+    {
+      "question": "Which feature adjusts on ARMs?",
+      "options": [
+        "Margin",
+        "Index",
+        "Note Rate",
+        "Cap"
+      ],
+      "answer": "Index",
+      "category": "ARM"
+    },
+    {
+      "question": "Which form must be provided at time of referral if affiliated?",
+      "options": [
+        "AFBA",
+        "CD",
+        "LE",
+        "HELOC Guide"
+      ],
+      "answer": "AFBA",
+      "category": "RESPA"
+    },
+    {
+      "question": "What is the purpose of the URLA (1003) form?",
+      "options": [
+        "Disclose settlement fees",
+        "Summarize the loan terms at closing",
+        "Collect borrower application data",
+        "Verify identity for AML compliance"
+      ],
+      "answer": "Collect borrower application data",
+      "category": "Loan Application"
+    },
+    {
+      "question": "Which loan has a funding fee?",
+      "options": [
+        "FHA",
+        "VA",
+        "USDA",
+        "Conventional"
+      ],
+      "answer": "VA",
+      "category": "Loan Types"
+    },
+    {
+      "question": "Which practice involves pressuring an appraiser to hit a value?",
+      "options": [
+        "Redlining",
+        "Steering",
+        "Appraisal manipulation",
+        "Churning"
+      ],
+      "answer": "Appraisal manipulation",
+      "category": "Unethical Practices"
+    },
+    {
+      "question": "How is prepaid interest calculated?",
+      "options": [
+        "Loan \u00f7 Interest Rate \u00f7 Days",
+        "Loan \u00d7 Rate \u00f7 12",
+        "Loan \u00d7 Rate \u00f7 365 \u00d7 Days",
+        "Principal \u00d7 Interest \u00f7 Months"
+      ],
+      "answer": "Loan \u00d7 Rate \u00f7 365 \u00d7 Days",
+      "category": "Prepaid Interest"
+    },
+    {
+      "question": "How is Loan-to-Value (LTV) calculated?",
+      "options": [
+        "Loan Amount \u00f7 Appraised Value",
+        "Appraised Value \u00f7 Purchase Price",
+        "Loan Amount \u00f7 Purchase Price",
+        "Loan Term \u00d7 Interest Rate"
+      ],
+      "answer": "Loan Amount \u00f7 Appraised Value",
+      "category": "LTV"
+    },
+    {
+      "question": "Which section of RESPA prohibits kickbacks?",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "10"
+      ],
+      "answer": "8",
+      "category": "RESPA"
+    },
+    {
+      "question": "Which document must be provided within 3 business days of receiving an application?",
+      "options": [
+        "Loan Estimate",
+        "Closing Disclosure",
+        "Deed",
+        "Final 1003"
+      ],
+      "answer": "Loan Estimate",
+      "category": "Disclosures"
+    },
+    {
+      "question": "Which type of fraud involves using someone else\u2019s name and credit?",
+      "options": [
+        "Straw buyer",
+        "Silent second",
+        "Equity skimming",
+        "Air loan"
+      ],
+      "answer": "Straw buyer",
+      "category": "Fraud Types"
+    },
+    {
+      "question": "Which law requires disclosure of APR?",
+      "options": [
+        "TILA",
+        "RESPA",
+        "ECOA",
+        "HMDA"
+      ],
+      "answer": "TILA",
+      "category": "TILA"
+    },
+    {
+      "question": "Reg Z implements what law?",
+      "options": [
+        "ECOA",
+        "TILA",
+        "RESPA",
+        "GLBA"
+      ],
+      "answer": "TILA",
+      "category": "TILA"
+    },
+    {
+      "question": "Which document is signed again at closing if changes occurred?",
+      "options": [
+        "CD",
+        "Initial LE",
+        "1003",
+        "Loan Servicing Transfer"
+      ],
+      "answer": "1003",
+      "category": "Loan Application"
+    },
+    {
+      "question": "A borrower has a $150,000 first loan and $30,000 second on a $200,000 home. CLTV is:",
+      "options": [
+        "85%",
+        "90%",
+        "95%",
+        "100%"
+      ],
+      "answer": "90%",
+      "category": "CLTV"
+    },
+    {
+      "question": "What\u2019s the key trait of fixed-rate mortgages?",
+      "options": [
+        "Adjustable",
+        "Rate changes",
+        "Rate is constant",
+        "Rate floats"
+      ],
+      "answer": "Rate is constant",
+      "category": "Loan Features"
+    },
+    {
+      "question": "What is the time frame for delivering the Closing Disclosure before consummation?",
+      "options": [
+        "1 business day",
+        "3 business days",
+        "7 business days",
+        "At application"
+      ],
+      "answer": "3 business days",
+      "category": "Disclosures"
+    },
+    {
+      "question": "A borrower takes a $160,000 loan on a $200,000 home. What is the LTV?",
+      "options": [
+        "70%",
+        "75%",
+        "80%",
+        "85%"
+      ],
+      "answer": "80%",
+      "category": "LTV"
+    },
+    {
+      "question": "What\u2019s the FHA down payment minimum?",
+      "options": [
+        "3%",
+        "3.5%",
+        "5%",
+        "0%"
+      ],
+      "answer": "3.5%",
+      "category": "Loan Terms"
+    },
+    {
+      "question": "Balloon loans end with what?",
+      "options": [
+        "Default",
+        "PMI",
+        "Lump sum",
+        "Refi"
+      ],
+      "answer": "Lump sum",
+      "category": "Loan Features"
+    },
+    {
+      "question": "Which law prevents discrimination in lending?",
+      "options": [
+        "RESPA",
+        "ECOA",
+        "TILA",
+        "FACTA"
+      ],
+      "answer": "ECOA",
+      "category": "ECOA"
+    },
+    {
+      "question": "What is considered fraud for housing?",
+      "options": [
+        "Using fake bank accounts to qualify borrowers",
+        "Misstating income or occupancy to qualify for a loan",
+        "Creating fake appraisals to increase commissions",
+        "Selling one property multiple times"
+      ],
+      "answer": "Misstating income or occupancy to qualify for a loan",
+      "category": "Fraud Types"
+    },
+    {
+      "question": "What is the formula for DTI (Debt-to-Income)?",
+      "options": [
+        "Loan Amount \u00f7 Monthly Debts",
+        "Monthly Debts \u00f7 Gross Monthly Income",
+        "Loan Amount \u00f7 Gross Monthly Income",
+        "Income \u00f7 Debts"
+      ],
+      "answer": "Monthly Debts \u00f7 Gross Monthly Income",
+      "category": "DTI"
+    },
+    {
+      "question": "What credit score does FHA usually accept?",
+      "options": [
+        "740+",
+        "680",
+        "580+",
+        "500+"
+      ],
+      "answer": "580+",
+      "category": "Loan Programs"
+    },
+    {
+      "question": "Which law requires Home Loan Toolkit?",
+      "options": [
+        "TILA",
+        "RESPA",
+        "FACTA",
+        "FCRA"
+      ],
+      "answer": "RESPA",
+      "category": "RESPA"
+    },
+    {
+      "question": "When is PMI typically required?",
+      "options": [
+        "LTV > 60%",
+        "LTV > 78%",
+        "LTV > 80%",
+        "LTV > 95%"
+      ],
+      "answer": "LTV > 80%",
+      "category": "Loan Terms"
+    },
+    {
+      "question": "Which of the following is a prohibited practice under RESPA Section 8?",
+      "options": [
+        "Giving clients referral discounts",
+        "Paying a referral fee to a real estate agent",
+        "Referring a client to your preferred appraiser",
+        "Sharing title insurance quotes"
+      ],
+      "answer": "Paying a referral fee to a real estate agent",
+      "category": "Unethical Practices"
+    },
+    {
+      "question": "What is the dollar cost of 2 discount points on a $250,000 loan?",
+      "options": [
+        "$2,000",
+        "$3,500",
+        "$4,000",
+        "$5,000"
+      ],
+      "answer": "$5,000",
+      "category": "Points"
+    },
+    {
+      "question": "What is the simple monthly PI payment for a $300,000 loan at 6% interest?",
+      "options": [
+        "$1,200",
+        "$1,300",
+        "$1,400",
+        "$1,500"
+      ],
+      "answer": "$1,500",
+      "category": "PI"
+    },
+    {
+      "question": "What is a 'changed circumstance' under TRID?",
+      "options": [
+        "Refinancing into a new loan",
+        "A new regulation update",
+        "Borrower change or unexpected fee affecting the LE",
+        "Missed payment after closing"
+      ],
+      "answer": "Borrower change or unexpected fee affecting the LE",
+      "category": "TRID"
+    },
+    {
+      "question": "Which loan has rural eligibility?",
+      "options": [
+        "FHA",
+        "VA",
+        "USDA",
+        "Jumbo"
+      ],
+      "answer": "USDA",
+      "category": "Loan Types"
+    },
+    {
+      "question": "Which law requires lenders to explain why credit was denied?",
+      "options": [
+        "ECOA",
+        "FCRA",
+        "TILA",
+        "RESPA"
+      ],
+      "answer": "ECOA",
+      "category": "Fair Lending"
+    },
+    {
+      "question": "What should an MLO do if they observe fraudulent documents?",
+      "options": [
+        "Ignore it",
+        "Ask borrower to explain",
+        "Report to compliance officer",
+        "Issue pre-approval anyway"
+      ],
+      "answer": "Report to compliance officer",
+      "category": "Professional Conduct"
+    },
+    {
+      "question": "How is Combined Loan-to-Value (CLTV) calculated?",
+      "options": [
+        "First Loan \u00f7 Purchase Price",
+        "First + Second Loans \u00f7 Appraised Value",
+        "Loan Amount \u00f7 Gross Income",
+        "APR \u00d7 Loan Term"
+      ],
+      "answer": "First + Second Loans \u00f7 Appraised Value",
+      "category": "CLTV"
+    },
+    {
+      "question": "Which calculation determines the borrower\u2019s ability to repay?",
+      "options": [
+        "LTV",
+        "APR",
+        "DTI",
+        "PITI"
+      ],
+      "answer": "DTI",
+      "category": "Calculations"
+    },
+    {
+      "question": "What form is used to calculate and disclose closing costs?",
+      "options": [
+        "Loan Estimate",
+        "1003",
+        "URAR",
+        "Title Binder"
+      ],
+      "answer": "Loan Estimate",
+      "category": "Disclosures"
+    },
+    {
+      "question": "Which federal law prohibits discrimination based on race, gender, or religion in credit decisions?",
+      "options": [
+        "RESPA",
+        "ECOA",
+        "TILA",
+        "HMDA"
+      ],
+      "answer": "ECOA",
+      "category": "Fair Lending"
+    },
+    {
+      "question": "If a home is worth $275,000 and the borrower puts down $55,000, what is the LTV?",
+      "options": [
+        "60%",
+        "70%",
+        "75%",
+        "80%"
+      ],
+      "answer": "80%",
+      "category": "LTV"
+    },
+    {
+      "question": "What is the purpose of the AUS (Automated Underwriting System)?",
+      "options": [
+        "Automatically issue final approval",
+        "Pre-fill borrower application data",
+        "Assess risk and eligibility based on guidelines",
+        "Close loan documents electronically"
+      ],
+      "answer": "Assess risk and eligibility based on guidelines",
+      "category": "Underwriting"
+    },
+    {
+      "question": "Which law protects borrower financial data?",
+      "options": [
+        "FACTA",
+        "FCRA",
+        "GLBA",
+        "RESPA"
+      ],
+      "answer": "GLBA",
+      "category": "GLBA"
+    },
+    {
+      "question": "What triggers LE delivery under TRID?",
+      "options": [
+        "Intent to proceed",
+        "Credit pull",
+        "6 pieces of info",
+        "APR calc"
+      ],
+      "answer": "6 pieces of info",
+      "category": "TRID"
+    },
+    {
+      "question": "If monthly debts are $1,800 and income is $6,000, DTI is:",
+      "options": [
+        "25%",
+        "28%",
+        "30%",
+        "33%"
+      ],
+      "answer": "30%",
+      "category": "DTI"
+    },
+    {
+      "question": "What is the 3/7/3 rule part of?",
+      "options": [
+        "RESPA",
+        "TILA",
+        "TRID",
+        "HMDA"
+      ],
+      "answer": "TILA",
+      "category": "TILA"
+    },
+    {
+      "question": "What is churning in mortgage lending?",
+      "options": [
+        "Forcing appraisers to inflate values",
+        "Repeatedly refinancing loans for fees",
+        "Forging signatures",
+        "Withholding LE disclosures"
+      ],
+      "answer": "Repeatedly refinancing loans for fees",
+      "category": "Unethical Practices"
+    },
+    {
+      "question": "What defines a jumbo loan?",
+      "options": [
+        "Non-QM",
+        "Over conforming limit",
+        "VA refi",
+        "Reverse loan"
+      ],
+      "answer": "Over conforming limit",
+      "category": "Loan Types"
+    }
+  ]
+}
