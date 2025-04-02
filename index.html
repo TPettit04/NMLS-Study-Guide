@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NMLS Exam Study Guide</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+    header { background: #003366; color: #fff; padding: 20px; text-align: center; }
+    nav { background: #005599; display: flex; flex-wrap: wrap; justify-content: center; padding: 10px; }
+    nav a { color: #fff; margin: 5px 15px; text-decoration: none; font-weight: bold; }
+    main { padding: 20px; max-width: 960px; margin: auto; background: #fff; }
+    section { margin-bottom: 40px; }
+    h2, h3 { color: #003366; }
+    ul { padding-left: 20px; }
+    .card { background: #eef2f7; padding: 15px; border-radius: 8px; margin-bottom: 10px; cursor: pointer; }
+    .card .back { display: none; color: #333; }
+    .card.flipped .front { display: none; }
+    .card.flipped .back { display: block; }
+    .quiz-question { margin-bottom: 20px; }
+    .quiz-question p { margin-bottom: 8px; font-weight: bold; }
+    .quiz-question label { display: block; margin: 5px 0; }
+    .submit-btn { margin-top: 10px; padding: 8px 15px; background: #003366; color: white; border: none; cursor: pointer; border-radius: 4px; }
+    .results { margin-top: 15px; font-weight: bold; color: green; }
+    footer { background: #003366; color: #fff; text-align: center; padding: 10px; }
+  </style>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      document.querySelectorAll('.card').forEach(card => {
+        card.addEventListener('click', () => {
+          card.classList.toggle('flipped');
+        });
+      });
+      const quizzes = document.querySelectorAll(".quiz-block");
+      quizzes.forEach(quiz => {
+        quiz.querySelector(".submit-btn").addEventListener("click", () => {
+          const questions = quiz.querySelectorAll(".quiz-question");
+          let score = 0;
+          questions.forEach(q => {
+            const correct = q.dataset.correct;
+            const selected = q.querySelector("input:checked");
+            if (selected && selected.value === correct) {
+              score++;
+              selected.parentElement.style.color = "green";
+            } else if (selected) {
+              selected.parentElement.style.color = "red";
+            }
+          });
+          const result = quiz.querySelector(".results");
+          result.textContent = `You scored ${score} out of ${questions.length}`;
+        });
+      });
+    });
+  </script>
+</head>
+<body>
+  <header>
+    <h1>NMLS SAFE Exam Study Guide</h1>
+    <p>Your all-in-one resource for test prep success</p>
+  </header>
+
+  <nav>
+    <a href="#overview">Overview</a>
+    <a href="#laws">Federal Laws</a>
+    <a href="#knowledge">General Knowledge</a>
+    <a href="#origination">Loan Origination</a>
+    <a href="#ethics">Ethics</a>
+    <a href="#state">State Content</a>
+    <a href="#quizzes">Practice Tests</a>
+    <a href="#flashcards">Flashcards</a>
+    <a href="#math">Math</a>
+  </nav>
+
+  <main>
+    <section id="quizzes">
+      <h2>📝 Practice Tests</h2>
+      <h3>Federal Laws – Quick Test (10 Questions)</h3>
+      <div class="quiz-block">
+        <div class="quiz-question" data-correct="Disclosure of credit terms">
+          <p>1. What does TILA primarily regulate?</p>
+          <label><input type="radio" name="q1" value="Loan servicing transfers"> Loan servicing transfers</label>
+          <label><input type="radio" name="q1" value="Settlement costs"> Settlement costs</label>
+          <label><input type="radio" name="q1" value="Disclosure of credit terms"> Disclosure of credit terms</label>
+          <label><input type="radio" name="q1" value="Identity theft procedures"> Identity theft procedures</label>
+        </div>
+        <div class="quiz-question" data-correct="Section 8">
+          <p>2. Which RESPA section prohibits kickbacks?</p>
+          <label><input type="radio" name="q2" value="Section 6"> Section 6</label>
+          <label><input type="radio" name="q2" value="Section 10"> Section 10</label>
+          <label><input type="radio" name="q2" value="Section 8"> Section 8</label>
+          <label><input type="radio" name="q2" value="Section 9"> Section 9</label>
+        </div>
+        <div class="quiz-question" data-correct="3 business days">
+          <p>3. When must the Loan Estimate be delivered?</p>
+          <label><input type="radio" name="q3" value="1 business day"> 1 business day</label>
+          <label><input type="radio" name="q3" value="3 business days"> 3 business days</label>
+          <label><input type="radio" name="q3" value="7 calendar days"> 7 calendar days</label>
+          <label><input type="radio" name="q3" value="At closing"> At closing</label>
+        </div>
+        <button class="submit-btn">Submit Answers</button>
+        <div class="results"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 NMLS Study Site | Created by Loan Servant</p>
+  </footer>
+</body>
+</html>
