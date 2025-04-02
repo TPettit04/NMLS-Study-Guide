@@ -6,6 +6,148 @@
   <title>NMLS SAFE Exam Study Guide</title>
   <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --bg: #ffffff;
+      --text: #111111;
+      --accent: #003366;
+      --card: #f4f4f4;
+      --modal-bg: rgba(0, 0, 0, 0.5);
+      --font: 'Urbanist', sans-serif;
+    }
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+    }
+    header, footer {
+      background: var(--accent);
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    nav {
+      background: #1a1a1a;
+      padding: 0.75rem;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 15px;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #cccccc;
+    }
+    .tab-section {
+      display: none;
+      padding: 2rem;
+      max-width: 960px;
+      margin: auto;
+      background: var(--bg);
+    }
+    .tab-section.active {
+      display: block;
+    }
+    h2 {
+      color: var(--accent);
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 6px;
+      margin-bottom: 1rem;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    .quiz-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
+    .quiz-card {
+      background: var(--card);
+      padding: 1rem;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+      cursor: pointer;
+      font-weight: 600;
+      transition: 0.3s ease;
+    }
+    .quiz-card:hover {
+      background: #e0e0e0;
+    }
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 999;
+      left: 0; top: 0; width: 100%; height: 100%;
+      background-color: var(--modal-bg);
+    }
+    .modal-content {
+      background-color: var(--bg);
+      margin: 5% auto;
+      padding: 20px;
+      width: 90%;
+      max-width: 700px;
+      border-radius: 12px;
+      position: relative;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+    .close {
+      color: #999;
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .quiz-question p {
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+    .quiz-question label {
+      display: block;
+      margin-bottom: 0.4rem;
+      cursor: pointer;
+    }
+    .results {
+      font-weight: bold;
+      margin-top: 1rem;
+      color: green;
+    }
+    button.submit-btn {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .card {
+      background: var(--card);
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+    .card .back {
+      display: none;
+    }
+    .card.flipped .front {
+      display: none;
+    }
+    .card.flipped .back {
+      display: block;
+    }
+    
     body { font-family: 'Urbanist', sans-serif; margin: 0; background: #f4f4f4; color: #111; }
     header, footer { background: #003366; color: #fff; text-align: center; padding: 1rem; }
     nav { background: #005599; padding: 0.5rem; text-align: center; }
