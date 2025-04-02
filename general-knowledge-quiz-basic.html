@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>General Mortgage Knowledge (10 Question Quiz) Quiz</title>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Urbanist', sans-serif; background: #f4f4f4; padding: 2rem; }
+    h1 { color: #111; }
+    .question { margin-bottom: 1.5rem; background: #fff; padding: 1rem; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.05); }
+    .question p { font-weight: 600; }
+    .question label { display: block; margin: 0.25rem 0; }
+    button { background: #000; color: #fff; padding: 10px 20px; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; }
+    .results { margin-top: 2rem; font-size: 1.1rem; font-weight: bold; }
+    .breakdown { margin-top: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>General Mortgage Knowledge (10 Question Quiz) – Randomized Quiz</h1>
+  <div id="quiz-container"></div>
+  <button onclick="gradeQuiz()">Submit Answers</button>
+  <div class="results" id="results"></div>
+  <div class="breakdown" id="breakdown"></div>
+  <script>
+    let questions = [];
+    fetch('general-knowledge-quiz-basic.json')
+      .then(res => res.json())
+      .then(data => {
+        const pool = data.questionPool;
+        questions = pool.sort(() => 0.5 - Math.random()).slice(0, 10);
+        const container = document.getElementById('quiz-container');
+        questions.forEach((q, idx) => {
+          const div = document.createElement('div');
+          div.className = 'question';
+          div.innerHTML = `<p>${idx + 1}. ${q.question}</p>` +
+            q.options.map(opt => `<label><input type="radio" name="q${idx}" value="${opt}"> ${opt}</label>`).join('');
+          container.appendChild(div);
+        });
+      });
+    function gradeQuiz() {
+      let score = 0;
+      const categoryBreakdown = {};
+      questions.forEach((q, idx) => {
+        const selected = document.querySelector(`input[name="q${idx}"]:checked`);
+        const category = q.category;
+        if (!categoryBreakdown[category]) categoryBreakdown[category] = { correct: 0, total: 0 };
+        categoryBreakdown[category].total++;
+        if (selected && selected.value === q.answer) {
+          score++;
+          categoryBreakdown[category].correct++;
+        }
+      });
+      document.getElementById('results').textContent = `You scored ${score} out of ${questions.length}`;
+      let breakdownText = "<h3>Performance by Topic:</h3><ul>";
+      for (const cat in categoryBreakdown) {
+        const { correct, total } = categoryBreakdown[cat];
+        breakdownText += `<li><strong>${cat}:</strong> ${correct}/${total} correct</li>`;
+      }
+      breakdownText += "</ul>";
+      document.getElementById('breakdown').innerHTML = breakdownText;
+    }
+  </script>
+</body>
+</html>

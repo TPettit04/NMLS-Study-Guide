@@ -1,0 +1,225 @@
+{
+  "title": "General Mortgage Knowledge (20 Question Quiz)",
+  "questionPool": [
+    {
+      "question": "Which of the following is a government-backed loan?",
+      "options": [
+        "Conventional",
+        "FHA",
+        "Jumbo",
+        "Portfolio"
+      ],
+      "answer": "FHA",
+      "category": "Loan Types"
+    },
+    {
+      "question": "Which loan requires a funding fee and is for eligible veterans?",
+      "options": [
+        "FHA",
+        "VA",
+        "USDA",
+        "Conventional"
+      ],
+      "answer": "VA",
+      "category": "Loan Types"
+    },
+    {
+      "question": "What is the minimum down payment for a standard FHA loan?",
+      "options": [
+        "0%",
+        "3%",
+        "3.5%",
+        "5%"
+      ],
+      "answer": "3.5%",
+      "category": "Loan Terms"
+    },
+    {
+      "question": "Which loan type is guaranteed by the U.S. Department of Agriculture?",
+      "options": [
+        "FHA",
+        "VA",
+        "USDA",
+        "Conventional"
+      ],
+      "answer": "USDA",
+      "category": "Loan Types"
+    },
+    {
+      "question": "Which feature allows an ARM\u2019s interest rate to adjust periodically?",
+      "options": [
+        "Fixed margin",
+        "Adjustment cap",
+        "Index",
+        "Amortization"
+      ],
+      "answer": "Index",
+      "category": "ARM Features"
+    },
+    {
+      "question": "What is the term for a loan with a large balance that exceeds conforming limits?",
+      "options": [
+        "Portfolio loan",
+        "Jumbo loan",
+        "FHA loan",
+        "Subprime loan"
+      ],
+      "answer": "Jumbo loan",
+      "category": "Loan Types"
+    },
+    {
+      "question": "Which loan program typically has the lowest credit score requirement?",
+      "options": [
+        "VA",
+        "USDA",
+        "FHA",
+        "Conventional"
+      ],
+      "answer": "FHA",
+      "category": "Loan Programs"
+    },
+    {
+      "question": "What is a feature of a balloon mortgage?",
+      "options": [
+        "It has no interest",
+        "It adjusts annually",
+        "It ends with a large lump-sum payment",
+        "It includes PMI"
+      ],
+      "answer": "It ends with a large lump-sum payment",
+      "category": "Loan Features"
+    },
+    {
+      "question": "PMI is typically required when the LTV exceeds what percentage?",
+      "options": [
+        "70%",
+        "78%",
+        "80%",
+        "90%"
+      ],
+      "answer": "80%",
+      "category": "Loan Terms"
+    },
+    {
+      "question": "Which characteristic defines a fixed-rate mortgage?",
+      "options": [
+        "Rate changes monthly",
+        "Rate is tied to an index",
+        "Rate remains constant",
+        "Rate increases yearly"
+      ],
+      "answer": "Rate remains constant",
+      "category": "Loan Features"
+    },
+    {
+      "question": "Which of the following is a government-backed loan?",
+      "options": [
+        "Conventional",
+        "FHA",
+        "Jumbo",
+        "Portfolio"
+      ],
+      "answer": "FHA",
+      "category": "Loan Types"
+    },
+    {
+      "question": "Which loan requires a funding fee and is for eligible veterans?",
+      "options": [
+        "FHA",
+        "VA",
+        "USDA",
+        "Conventional"
+      ],
+      "answer": "VA",
+      "category": "Loan Types"
+    },
+    {
+      "question": "What is the minimum down payment for a standard FHA loan?",
+      "options": [
+        "0%",
+        "3%",
+        "3.5%",
+        "5%"
+      ],
+      "answer": "3.5%",
+      "category": "Loan Terms"
+    },
+    {
+      "question": "Which loan type is guaranteed by the U.S. Department of Agriculture?",
+      "options": [
+        "FHA",
+        "VA",
+        "USDA",
+        "Conventional"
+      ],
+      "answer": "USDA",
+      "category": "Loan Types"
+    },
+    {
+      "question": "Which feature allows an ARM\u2019s interest rate to adjust periodically?",
+      "options": [
+        "Fixed margin",
+        "Adjustment cap",
+        "Index",
+        "Amortization"
+      ],
+      "answer": "Index",
+      "category": "ARM Features"
+    },
+    {
+      "question": "What is the term for a loan with a large balance that exceeds conforming limits?",
+      "options": [
+        "Portfolio loan",
+        "Jumbo loan",
+        "FHA loan",
+        "Subprime loan"
+      ],
+      "answer": "Jumbo loan",
+      "category": "Loan Types"
+    },
+    {
+      "question": "Which loan program typically has the lowest credit score requirement?",
+      "options": [
+        "VA",
+        "USDA",
+        "FHA",
+        "Conventional"
+      ],
+      "answer": "FHA",
+      "category": "Loan Programs"
+    },
+    {
+      "question": "What is a feature of a balloon mortgage?",
+      "options": [
+        "It has no interest",
+        "It adjusts annually",
+        "It ends with a large lump-sum payment",
+        "It includes PMI"
+      ],
+      "answer": "It ends with a large lump-sum payment",
+      "category": "Loan Features"
+    },
+    {
+      "question": "PMI is typically required when the LTV exceeds what percentage?",
+      "options": [
+        "70%",
+        "78%",
+        "80%",
+        "90%"
+      ],
+      "answer": "80%",
+      "category": "Loan Terms"
+    },
+    {
+      "question": "Which characteristic defines a fixed-rate mortgage?",
+      "options": [
+        "Rate changes monthly",
+        "Rate is tied to an index",
+        "Rate remains constant",
+        "Rate increases yearly"
+      ],
+      "answer": "Rate remains constant",
+      "category": "Loan Features"
+    }
+  ]
+}
