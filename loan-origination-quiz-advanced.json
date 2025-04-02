@@ -1,0 +1,225 @@
+{
+  "title": "Loan Origination (20 Question Quiz)",
+  "questionPool": [
+    {
+      "question": "What is the purpose of the URLA (1003) form?",
+      "options": [
+        "Disclose settlement fees",
+        "Summarize the loan terms at closing",
+        "Collect borrower application data",
+        "Verify identity for AML compliance"
+      ],
+      "answer": "Collect borrower application data",
+      "category": "Loan Application"
+    },
+    {
+      "question": "Which of the following triggers the delivery of a Loan Estimate?",
+      "options": [
+        "Borrower signs the 1003",
+        "Submission of purchase contract",
+        "Receipt of six key pieces of application info",
+        "Order of appraisal"
+      ],
+      "answer": "Receipt of six key pieces of application info",
+      "category": "Disclosures"
+    },
+    {
+      "question": "What is the time frame for delivering the Closing Disclosure before consummation?",
+      "options": [
+        "1 business day",
+        "3 business days",
+        "7 business days",
+        "At application"
+      ],
+      "answer": "3 business days",
+      "category": "Disclosures"
+    },
+    {
+      "question": "Which calculation determines the borrower\u2019s ability to repay?",
+      "options": [
+        "LTV",
+        "APR",
+        "DTI",
+        "PITI"
+      ],
+      "answer": "DTI",
+      "category": "Calculations"
+    },
+    {
+      "question": "What form is used to calculate and disclose closing costs?",
+      "options": [
+        "Loan Estimate",
+        "1003",
+        "URAR",
+        "Title Binder"
+      ],
+      "answer": "Loan Estimate",
+      "category": "Disclosures"
+    },
+    {
+      "question": "What is a 'changed circumstance' under TRID?",
+      "options": [
+        "Refinancing into a new loan",
+        "A new regulation update",
+        "Borrower change or unexpected fee affecting the LE",
+        "Missed payment after closing"
+      ],
+      "answer": "Borrower change or unexpected fee affecting the LE",
+      "category": "TRID"
+    },
+    {
+      "question": "Who issues a clear-to-close?",
+      "options": [
+        "Processor",
+        "Loan Originator",
+        "Underwriter",
+        "Title Agent"
+      ],
+      "answer": "Underwriter",
+      "category": "Processing"
+    },
+    {
+      "question": "What is the purpose of the AUS (Automated Underwriting System)?",
+      "options": [
+        "Automatically issue final approval",
+        "Pre-fill borrower application data",
+        "Assess risk and eligibility based on guidelines",
+        "Close loan documents electronically"
+      ],
+      "answer": "Assess risk and eligibility based on guidelines",
+      "category": "Underwriting"
+    },
+    {
+      "question": "Which document must be provided within 3 business days of receiving an application?",
+      "options": [
+        "Loan Estimate",
+        "Closing Disclosure",
+        "Deed",
+        "Final 1003"
+      ],
+      "answer": "Loan Estimate",
+      "category": "Disclosures"
+    },
+    {
+      "question": "Which document is signed again at closing if changes occurred?",
+      "options": [
+        "CD",
+        "Initial LE",
+        "1003",
+        "Loan Servicing Transfer"
+      ],
+      "answer": "1003",
+      "category": "Loan Application"
+    },
+    {
+      "question": "What is the purpose of the URLA (1003) form?",
+      "options": [
+        "Disclose settlement fees",
+        "Summarize the loan terms at closing",
+        "Collect borrower application data",
+        "Verify identity for AML compliance"
+      ],
+      "answer": "Collect borrower application data",
+      "category": "Loan Application"
+    },
+    {
+      "question": "Which of the following triggers the delivery of a Loan Estimate?",
+      "options": [
+        "Borrower signs the 1003",
+        "Submission of purchase contract",
+        "Receipt of six key pieces of application info",
+        "Order of appraisal"
+      ],
+      "answer": "Receipt of six key pieces of application info",
+      "category": "Disclosures"
+    },
+    {
+      "question": "What is the time frame for delivering the Closing Disclosure before consummation?",
+      "options": [
+        "1 business day",
+        "3 business days",
+        "7 business days",
+        "At application"
+      ],
+      "answer": "3 business days",
+      "category": "Disclosures"
+    },
+    {
+      "question": "Which calculation determines the borrower\u2019s ability to repay?",
+      "options": [
+        "LTV",
+        "APR",
+        "DTI",
+        "PITI"
+      ],
+      "answer": "DTI",
+      "category": "Calculations"
+    },
+    {
+      "question": "What form is used to calculate and disclose closing costs?",
+      "options": [
+        "Loan Estimate",
+        "1003",
+        "URAR",
+        "Title Binder"
+      ],
+      "answer": "Loan Estimate",
+      "category": "Disclosures"
+    },
+    {
+      "question": "What is a 'changed circumstance' under TRID?",
+      "options": [
+        "Refinancing into a new loan",
+        "A new regulation update",
+        "Borrower change or unexpected fee affecting the LE",
+        "Missed payment after closing"
+      ],
+      "answer": "Borrower change or unexpected fee affecting the LE",
+      "category": "TRID"
+    },
+    {
+      "question": "Who issues a clear-to-close?",
+      "options": [
+        "Processor",
+        "Loan Originator",
+        "Underwriter",
+        "Title Agent"
+      ],
+      "answer": "Underwriter",
+      "category": "Processing"
+    },
+    {
+      "question": "What is the purpose of the AUS (Automated Underwriting System)?",
+      "options": [
+        "Automatically issue final approval",
+        "Pre-fill borrower application data",
+        "Assess risk and eligibility based on guidelines",
+        "Close loan documents electronically"
+      ],
+      "answer": "Assess risk and eligibility based on guidelines",
+      "category": "Underwriting"
+    },
+    {
+      "question": "Which document must be provided within 3 business days of receiving an application?",
+      "options": [
+        "Loan Estimate",
+        "Closing Disclosure",
+        "Deed",
+        "Final 1003"
+      ],
+      "answer": "Loan Estimate",
+      "category": "Disclosures"
+    },
+    {
+      "question": "Which document is signed again at closing if changes occurred?",
+      "options": [
+        "CD",
+        "Initial LE",
+        "1003",
+        "Loan Servicing Transfer"
+      ],
+      "answer": "1003",
+      "category": "Loan Application"
+    }
+  ]
+}
