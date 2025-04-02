@@ -1,0 +1,115 @@
+{
+  "title": "Federal Laws Quiz Bank",
+  "questionPool": [
+    {
+      "question": "What does TILA primarily regulate?",
+      "options": [
+        "Loan servicing transfers",
+        "Settlement costs",
+        "Disclosure of credit terms",
+        "Identity theft procedures"
+      ],
+      "answer": "Disclosure of credit terms",
+      "category": "TILA"
+    },
+    {
+      "question": "Which law requires lenders to disclose the APR?",
+      "options": [
+        "RESPA",
+        "TILA",
+        "ECOA",
+        "HMDA"
+      ],
+      "answer": "TILA",
+      "category": "TILA"
+    },
+    {
+      "question": "What is the required delivery time for the Loan Estimate?",
+      "options": [
+        "1 business day",
+        "3 business days",
+        "7 calendar days",
+        "At closing"
+      ],
+      "answer": "3 business days",
+      "category": "TRID"
+    },
+    {
+      "question": "Which law prohibits kickbacks and referral fees?",
+      "options": [
+        "TILA",
+        "ECOA",
+        "RESPA",
+        "FCRA"
+      ],
+      "answer": "RESPA",
+      "category": "RESPA"
+    },
+    {
+      "question": "Which section of RESPA specifically prohibits kickbacks?",
+      "options": [
+        "Section 6",
+        "Section 10",
+        "Section 8",
+        "Section 9"
+      ],
+      "answer": "Section 8",
+      "category": "RESPA"
+    },
+    {
+      "question": "Which law requires the Home Loan Toolkit booklet?",
+      "options": [
+        "HMDA",
+        "RESPA",
+        "ECOA",
+        "FACTA"
+      ],
+      "answer": "RESPA",
+      "category": "RESPA"
+    },
+    {
+      "question": "Which law ensures equal access to credit?",
+      "options": [
+        "RESPA",
+        "ECOA",
+        "TILA",
+        "FCRA"
+      ],
+      "answer": "ECOA",
+      "category": "ECOA"
+    },
+    {
+      "question": "What does the GLBA primarily address?",
+      "options": [
+        "Kickbacks",
+        "Credit reporting",
+        "Privacy and information security",
+        "Loan disclosures"
+      ],
+      "answer": "Privacy and information security",
+      "category": "GLBA"
+    },
+    {
+      "question": "Which law regulates credit report usage and accuracy?",
+      "options": [
+        "FCRA",
+        "TILA",
+        "RESPA",
+        "ECOA"
+      ],
+      "answer": "FCRA",
+      "category": "FCRA"
+    },
+    {
+      "question": "Which regulation implements TILA?",
+      "options": [
+        "Regulation Z",
+        "Regulation B",
+        "Regulation C",
+        "Regulation X"
+      ],
+      "answer": "Regulation Z",
+      "category": "TILA"
+    }
+  ]
+}
